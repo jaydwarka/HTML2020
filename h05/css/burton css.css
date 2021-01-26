@@ -1,5 +1,11 @@
+
 body{
     background-color: mistyrose;
+}
+div.wrapper{
+    margin: auto;
+    width: 1000px;
+    padding: 20px;
 }
 section.appel {
     width: 50px;
