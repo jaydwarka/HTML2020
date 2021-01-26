@@ -1,13 +1,40 @@
-
-body{
-    background-color: mistyrose;
-}
-div.wrapper{
+* {box-sizing: border-box}
+div#wrapper{
     margin: auto;
     width: 1000px;
+    background-color: rgb(251, 235, 235);
     padding: 20px;
 }
-section.appel {
-    width: 50px;
-    height: 50px;
+
+body{ font-family: Arial, sans-serif;
+}
+nav{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+nav a{
+    margin-right: 20px;
+}
+section.appel, section.visuals{
+    width: 50%;
+    float: left;
+}
+section.visuals{
+    text-align: right;
+}
+img.appel {
+    width: 497px;
+}
+img.visuals{
+    width: 450px;
+    margin-bottom: 13px;
+}
+article{
+    display: inline-block;
+    width: 30%;
+    padding-right: 10px;
+    vertical-align: top;
+}
+article:last-child{
+    padding-right: 0px;
 }
